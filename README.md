@@ -1,7 +1,9 @@
 <h1 align="center">Welcome to todoApp 👋</h1>
 <p>
 </p>
-
+<blockquote>
+<p>할일을 관리하는 프로젝트입니다.</p>
+</blockquote>
 ## Author
 
 👤 **bigwin26**
