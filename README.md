@@ -2,7 +2,7 @@
 <p>
 </p>
 <blockquote>
-<p>할일을 관리하는 프로젝트입니다.</p>
+<p>nomad coder를 보고 따라한 할일을 관리하는 프로젝트입니다.</p>
 </blockquote>
 ## Author
 

@@ -1,0 +1,112 @@
+body{
+  background-color:#ecf0f1;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn{
+  cursor:pointer;
+}
+
+body {
+  color:whitesmoke;
+  transition:color .5s ease-in-out;
+}
+
+.clicked{
+  color:#7f8c8d
+}
+
+.form, 
+.greetings {
+  display:none;
+}
+
+.showing{
+  display:block;
+}
+
+@keyframes fadeIn{
+  from{
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+.js-weather{
+  font-size:20px;
+  text-align:right;
+}
+
+.js-time{
+  margin-top:150px;
+  text-align:center;
+  font-size:400%;
+}
+
+.js-greetings{
+  text-align:center;
+  font-size : 350%;
+}
+
+.js-todoForm{
+  text-align:center;
+}
+
+.js-todoList{
+  text-align:300px;
+  margin:15px;
+}
+.js-form{
+  text-align:center;
+  margin:30px;
+}
+
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+input:focus,
+input:active {
+  border: 2px solid #b2e1ff;
+}
+
+ul {
+  list-style-type:none;
+  font-size:20px;
+  padding: 0px;
+  margin: 0;
+}
+
+ul {
+  text-align:center;
+  margin-top: 50px;
+  color:#ededed;
+}
+
+
+button{
+  background-color:transparent;
+  border-color:transparent;
+}
+
+.bgImage{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  animation : fadeIn .5s linear;
+}
